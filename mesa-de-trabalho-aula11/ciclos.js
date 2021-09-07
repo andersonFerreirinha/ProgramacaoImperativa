@@ -2,7 +2,7 @@
 let peliculas = ["star wars", "totoro", "rocky", "pulp fiction", "la vida es bella"]
 
 function maiuscula(peliculas) {
-    for (i = 0; i < peliculas.length; i++) {
+    for (let i = 0; i < peliculas.length; i++) {
         peliculas[i] = peliculas[i].toUpperCase();
 
 
@@ -19,7 +19,7 @@ listaInfantil = ["filmes3", "filme2", "filme1"];
 
 
 function lista(listaOriginal, listaInfantil) {
-    for (f = 0; f <= listaInfantil.length - 1; f++) {
+    for (let f = 0; f <= listaInfantil.length - 1; f++) {
         listaOriginal.unshift(listaInfantil[f]);
     }
 
@@ -34,7 +34,7 @@ let euroScores = [8, 10, 6, 8, 10, 6, 7, 9, 5];
 
 function comparacao(asia, europa) {
     let comparacaoAsiaEuropa = []
-    for (c = 0; c <= euroScores.length; i++) {
+    for (let c = 0; c <= euroScores.length; i++) {
         comparacaoAsiaEuropa[i] = asia[i] === europa[i]
     }
     return comparacaoAsiaEuropa;
@@ -51,7 +51,7 @@ console.log("Participante A, notas: " + participanteA + "\n" + "Participante B, 
 
 function pontuacaoMedia(participante) {
     let soma = 0;
-    for (p = 0; p < participante.length; p++) {
+    for (let p = 0; p < participante.length; p++) {
         soma = participante[p] + soma;
     }
 

@@ -31,11 +31,41 @@ function digitalHouse(n, n2){
         if(i % n == 0){
             console.log("Digital");
         } 
-        
         if(i % n2 == 0)
          console.log("House");
-    }
+        } 
+        if(i % n == 0 && i % n2){
+            console.log("Digital House");
+        }
 
 }
 
 (digitalHouse(2, 3));
+
+console.log("*********** somaArray ************")
+soma = [1,2,3,5,6,7];
+
+function somaArray(array){
+    let resultado = 0;
+    for(let i = 0; i < array.length; i++){
+       resultado = array[i] + resultado;
+      
+    }
+    return resultado
+}
+console.log(somaArray(soma));
+
+
+console.log("************* join *********************")
+let frase = ["S", "i", "n", "d", "i", "c", "a", "t", "o"];
+function unir(array){
+    let palavra = "";
+    for(let i = array.length-1; i >= 0; i--){
+     palavra = array[i] + palavra;
+     
+    }
+    return palavra
+
+}
+console.log(unir(frase));
+

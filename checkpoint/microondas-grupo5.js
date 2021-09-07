@@ -40,10 +40,11 @@ function microondas(comida, tempo) {
   } else if (tempo >= 2 * tempoPadrao && tempo < 3 * tempoPadrao) {
     console.log('Comida queimou')
   } else if (tempo >= 3 * tempoPadrao) {
-    console.log('kabummm')
+    console.log('kabummm');
   } else {
     console.log('Prato inexistente..')
   }
 }
 
-microondas('pipoca', 30)
+microondas('pipoca', 30);
+
