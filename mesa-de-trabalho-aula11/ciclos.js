@@ -60,6 +60,8 @@ function pontuacaoMedia(participante) {
 console.log("A média do participante é: " + pontuacaoMedia(participanteA));
 
 function pontuacaoMaior(participante) {
+// 
+
     var max = participante.reduce(function (numero1, numero2) {
         return Math.max(numero1, numero2);
     });
