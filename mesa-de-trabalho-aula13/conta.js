@@ -70,8 +70,3 @@ console.log(banco.saque("Bendite Hugget", 33000.00))
 
 
 
-// console.log(this.clientes.titular);
-// console.log(banco.clientes.indexOf(conta1.titular));
-// return this.clientes = {titular: cliente}
-// console.log(this.clientes[0].titular == "Abigael Natte")
-// console.log(banco.clientes[1].titular);
