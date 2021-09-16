@@ -31,17 +31,18 @@ console.log("************ Conteúdo Extra ****************")
 
 function digitalHouse(n, n2) {
     for (i = 0; i <= 100; i++) {
-        if (i % n == 0) {
-            console.log("Digital");
-        }
-        if (i % n2 == 0)
-            console.log("House");
-    }
-    if (i % n == 0 && i % n2) {
-        console.log("Digital House");
-    }
+     if (i % n == 0 && i % n2 == 0) {
+        console.log(i + " Digital House");
+    } else if(i % n == 0) {
+            console.log(i +" Digital");
+        }else if(i % n2 == 0) {
+            console.log(i + " House");
+        }  
 
+    }
 }
+
+
 
 (digitalHouse(2, 3));
 
